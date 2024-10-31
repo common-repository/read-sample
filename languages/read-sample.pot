@@ -1,0 +1,104 @@
+# Copyright (C) 2024 Kamrul Hasan
+# This file is distributed under the GPL2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Read Sample 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/read-sample\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-10T07:41:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: read-sample\n"
+
+#. Plugin Name of the plugin
+#: read-sample.php
+#: read-sample.php:133
+msgid "Read Sample"
+msgstr ""
+
+#. Description of the plugin
+#: read-sample.php
+msgid "Adds a \"Read Sample\" button to WooCommerce product pages and archives."
+msgstr ""
+
+#. Author of the plugin
+#: read-sample.php
+msgid "Kamrul Hasan"
+msgstr ""
+
+#: inc/settings.php:43
+msgid "Settings Saved"
+msgstr ""
+
+#: inc/settings.php:56
+msgid "Nonce verification failed"
+msgstr ""
+
+#: inc/settings.php:86
+msgid "Customize Read Sample Button"
+msgstr ""
+
+#: inc/settings.php:103
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/settings.php:109
+msgid "Support Only Hex Color Code (#dddddd)."
+msgstr ""
+
+#: inc/settings.php:115
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/settings.php:121
+msgid "Support Only Hex Color Code (#ffffff)"
+msgstr ""
+
+#: inc/settings.php:127
+msgid "Button Text"
+msgstr ""
+
+#: read-sample.php:77
+msgid "Sample Image Gallery"
+msgstr ""
+
+#: read-sample.php:78
+msgid "Select or upload images"
+msgstr ""
+
+#: read-sample.php:81
+msgid "Select multiple images from the media library or upload new ones."
+msgstr ""
+
+#: read-sample.php:84
+msgid "Select Images"
+msgstr ""
+
+#: read-sample.php:84
+msgid "Add to gallery"
+msgstr ""
+
+#: read-sample.php:84
+msgid "Upload Images"
+msgstr ""
+
+#: read-sample.php:163
+msgid "Close"
+msgstr ""
+
+#. translators: %d: The index of the sample image being displayed.
+#: read-sample.php:189
+msgid "Sample image %d"
+msgstr ""
+
+#: read-sample.php:193
+msgid "No sample available."
+msgstr ""
+
+#: read-sample.php:209
+msgid "Settings"
+msgstr ""

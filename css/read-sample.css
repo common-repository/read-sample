@@ -1,0 +1,101 @@
+#read-sample-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 60%;
+    min-width: 350px;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 7px 1px rgba(0,0,0,.5);
+    border-radius: 12px;
+    display: none;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.read-sample-content {
+    background: #fff;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 12px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: #000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#sample-content {
+    background: #eee;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#sample-content iframe,
+#sample-content img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    object-fit: cover; /* Ensures the PDF or image covers the area */
+}
+#sample-content img {
+    padding: 0 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+    #read-sample-popup {
+        width: 95%;
+        height: 70%;
+        max-width: none;
+        max-height: none;
+        border-radius: 12px;
+    }
+    #sample-content {
+        padding: 50px 0px 10px 0px;
+    }
+    #sample-content img {
+        padding: 0px 10px;
+    }
+    .close-popup {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #000;
+        color: white;
+        border: none;
+        padding: 4px 10px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+}
+
+.upload_image_gallery_button {
+    margin-top: 10px;
+}
+
+button.read-sample-btn {
+    margin-left: 10px;
+}
